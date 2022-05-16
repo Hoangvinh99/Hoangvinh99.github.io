@@ -12,22 +12,42 @@ body{
     align-items: center;
     min-height: 100vh;
 }
-.Giraffe_Cv .container{
+.cycle {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background: #ffffff6b;
+    border-radius: 50%;
+    border: 1px solid #ffffff54;
+    
+top: 30%;left: 50%;}
+section.Giraffe_Cv {
+    position: absolute;
+    min-width: 100%;
+    min-height: 1100px;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    display: flex;
+}
+.Giraffe_Cv .container1{
     position: relative;
     min-height: 1000px;
     max-width: 1000px;
-    background: #fff;
     display: grid;
     padding: 0;
     grid-template-columns: 1fr 2fr;
-    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 35px 55px rgb(0 0 0 / 30%);
     margin: 50px;
-}
+z-index: 100;
+    }
 .left_side{
     position: relative;
     background: #003147;
     padding: 30px;
-}
+border-top-left-radius: 6px;border-bottom-left-radius: 6px;}
 .profileText{
     position: relative;
     display: flex;
@@ -122,11 +142,13 @@ display: block;margin-left: 30px;}
     font-weight: 500;
 }
 
-.right_side{
+.right_side {
     position: relative;
-    background: #fff;
+    background-color: #ffffff14;
     padding: 40px;
-}
+    backdrop-filter: blur(10px);
+border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;}
 .title2{
     color: #003147;
     text-transform: uppercase;
