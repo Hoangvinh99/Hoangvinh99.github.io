@@ -224,7 +224,7 @@ font-weight: bold;}
 }
 
 @media (max-width:1000px) {
-    .Giraffe_Cv .container{
+    .Giraffe_Cv .container1{
         margin: 10px;
         grid-template-columns: repeat(1,1fr);
     }
