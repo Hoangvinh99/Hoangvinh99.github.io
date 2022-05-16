@@ -224,7 +224,7 @@ font-weight: bold;}
 }
 
 @media (max-width:1000px) {
-    .Giraffe_Cv .container1{
+     .Giraffe_Cv .container1{ /*lỗi sai tên phần tử */
         margin: 10px;
         grid-template-columns: repeat(1,1fr);
     }
